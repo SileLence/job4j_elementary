@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class MaxTest {
     @Test
-    public void whenMax2To1Then2() {
+    public void whenMax5To8Then8() {
         int left = 5;
         int right = 8;
         int result = Max.max(left, right);
@@ -14,7 +14,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax1To2Then1() {
+    public void whenMax1ToMinus3Then1() {
         int left = 1;
         int right = -3;
         int result = Max.max(left, right);
@@ -23,7 +23,7 @@ public class MaxTest {
     }
 
     @Test
-    public void when1Equals2Then1Or2() {
+    public void when7Equals7Then7() {
         int left = 7;
         int right = 7;
         int result = Max.max(left, right);
