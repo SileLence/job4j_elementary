@@ -1,9 +1,6 @@
 package ru.job4j.condition;
 
 public class ChessBoard {
-    public static void main(String[] args) {
-
-    }
 
     public static int way(int x1, int y1, int x2, int y2) {
         if ((x1 >= 0 && x1 <= 7)
@@ -12,8 +9,7 @@ public class ChessBoard {
                 && (y2 >= 0 && y2 <= 7)
                 && (Math.abs(x2 - x1) == Math.abs(y2 - y1))) {
             return Math.abs(x2 - x1);
-        } else {
-            return 0;
         }
+        return 0;
     }
 }
