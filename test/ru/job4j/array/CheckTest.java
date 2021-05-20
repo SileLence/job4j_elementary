@@ -24,5 +24,4 @@ public class CheckTest {
         boolean result = Check.mono(data);
         Assert.assertTrue(result);
     }
-
 }
