@@ -18,7 +18,7 @@ public class MinDiapasonTest {
     public void whenLastMin() {
         int[] array = {10, 5, 3, 1};
         int start = 1;
-        int finish = array.length;
+        int finish = 3;
         int result = MinDiapason.findMin(array, start, finish);
         int expected = 1;
         Assert.assertEquals(expected, result);
