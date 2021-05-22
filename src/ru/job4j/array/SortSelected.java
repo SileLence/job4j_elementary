@@ -7,7 +7,6 @@ public class SortSelected {
             int indexOfMin = FindLoop.indexOf(data, min, i, data.length - 1);
             SwitchArray.swap(data, i, indexOfMin);
         }
-
         return data;
     }
 }
