@@ -4,9 +4,9 @@ public class Min {
     public static int findMin(int[] array) {
         int min = array[0];
 
-        for (int digit : array) {
-            if (digit < min) {
-                min = digit;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < min) {
+                min = array[i];
             }
         }
         return min;
