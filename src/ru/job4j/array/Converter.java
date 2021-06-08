@@ -15,7 +15,6 @@ public class Converter {
         int[][] square = new int[side][side];
         int row = 0;
         int cell = 0;
-
         for (int[] arrayRow : array) {
             for (int arrayCell : arrayRow) {
                 if (row < side) {
@@ -33,7 +32,6 @@ public class Converter {
 
     private static int countArrayLength(int[][] array) {
         int length = 0;
-
         for (int[] row : array) {
             for (int cell = 0; cell < row.length; cell++) {
                 length++;

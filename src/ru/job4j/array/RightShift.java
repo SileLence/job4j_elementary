@@ -13,12 +13,10 @@ public class RightShift {
         }
     }
 
-    // метод делает сдвиг с шагом 1
     private static void shift(int[] nums) {
         int lastElement = nums[nums.length - 1];
         int temp1 = nums[0];
         int temp2 = nums[1];
-
         for (int i = 1; i < nums.length; i++) {
             nums[i] = temp1;
             temp1 = temp2;

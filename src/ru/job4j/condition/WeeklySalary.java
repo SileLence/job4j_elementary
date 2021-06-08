@@ -8,7 +8,6 @@ public class WeeklySalary {
 
     public static int calculate(int[] hours) {
         int salary = 0;
-
         for (int i = 0; i < hours.length; i++) {
             if ((i < 5) && (hours[i] > 8)) {
                 salary += 80 + ((hours[i] - 8) * 15);

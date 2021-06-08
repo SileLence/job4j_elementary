@@ -12,7 +12,6 @@ public class SymmetricDiff {
     public static int[] diff(int[] left, int[] right) {
         int[] result = new int[left.length + right.length];
         int index = 0;
-
         for (int l : left) {
             boolean flag = true;
             for (int r : right) {

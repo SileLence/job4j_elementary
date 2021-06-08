@@ -14,7 +14,6 @@ public class Anomaly {
         int[][] result = new int[data.length][];
         int row = 0;
         int cell = 0;
-
         for (int i = 0; i < data.length; i++) {
             if (cell == 0 && (data[i] <= down || data[i] >= up)) {  // Проверяем условие и создаём массив ячеек
                 result[row] = new int[data.length];

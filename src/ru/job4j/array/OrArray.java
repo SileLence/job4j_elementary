@@ -12,7 +12,6 @@ public class OrArray {
     public static int[] or(int[] left, int[] right) {
         int[] result = new int[left.length + right.length];
         int index = 0;
-
         for (int l : left) {
             result[index] = l;
             index++;
@@ -30,6 +29,6 @@ public class OrArray {
                 index++;
             }
         }
-        return Arrays.copyOf(result,index);
+        return Arrays.copyOf(result, index);
     }
 }

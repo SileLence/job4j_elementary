@@ -18,10 +18,8 @@ public class UnionThreeArrays {
     public static int[] union(int[] left, int[] middle, int[] right) {
         int lengthOfUnion = 2 + (middle.length / 2) + (right.length / 2);
         int[] union = new int[lengthOfUnion];
-
         union[0] = left[0];
         union[lengthOfUnion - 1] = left[left.length - 1];
-
         for (int i = 1; i < union.length - 2; i++) {
             if (i % 2 == 1) {
                 union[i + 1] = middle[i];

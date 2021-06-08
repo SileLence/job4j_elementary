@@ -18,7 +18,6 @@ public class Converter {
         int outDollars = Converter.rubleToDollar(in);
         boolean passedEuroConversion = expectedEuro == outEuro;
         boolean passedDollarConversion = expectedDollars == outDollars;
-
         System.out.println(in + " rubles are " + outEuro + " euro. Test result: " + passedEuroConversion);
         System.out.println(in + " rubles are " + outDollars + " dollars. Test result: " + passedDollarConversion);
     }

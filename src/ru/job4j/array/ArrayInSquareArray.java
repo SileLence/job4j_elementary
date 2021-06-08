@@ -10,7 +10,6 @@ public class ArrayInSquareArray {
         int side = (int) Math.ceil(Math.sqrt(array.length));
         int index = 0;
         int[][] square = new int[side][side];
-
         for (int row = 0; row < square.length; row++) {
             for (int cell = 0; cell < square[row].length; cell++) {
                 if (index < array.length) {

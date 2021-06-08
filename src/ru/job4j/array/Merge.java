@@ -7,7 +7,6 @@ public class Merge {
         int[] result = new int[left.length + right.length];
         int indexOfLeft = 0;
         int indexOfRight = 0;
-
         for (int i = 0; i < result.length; i++) {
             if (indexOfLeft < left.length && indexOfRight < right.length) {
                 if (left[indexOfLeft] < right[indexOfRight]) {
@@ -25,8 +24,6 @@ public class Merge {
                 indexOfRight++;
             }
         }
-
-        System.out.println(Arrays.toString(result));
         return result;
     }
 }

@@ -15,7 +15,6 @@ public class Fit {
         short womanHeight = 180;
         double man = Fit.manWeight(manHeight);
         double woman = Fit.womanWeight(womanHeight);
-
         System.out.println("Ideal weight for man with height " + manHeight + " cm is " + man + " kg.");
         System.out.println("Ideal weight for woman with height " + womanHeight + " cm is " + woman + " kg.");
     }
